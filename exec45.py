@@ -1,12 +1,12 @@
 import random
 import time
 print('*-'*35)
-opcao = str(input('Vamos Jogar Jokenpô? \nDigite Sim ou Não: ')).strip() #Pergunta ao usuario se deseja jogar
+opcao = str(input('Vamos Jogar Jokenpô? \nDigite Sim ou Não: ')).strip() #Pergunta ao usuário se deseja jogar
 
-if opcao == 'Sim' or opcao == 'S' or opcao == 'SIM': #se SIM vai carregar o codigo com as Opções
+if opcao == 'Sim' or opcao == 'S' or opcao == 'SIM': #se SIM vai carregar o código com as Opções
     print('OK')
     print('Processando minha escolha...')
-    time.sleep(3)                                   #o o modulo time e a funçaoo sleep é para fazer uma simulação de contagem de carregamento
+    time.sleep(3)                                   #o modulo time e a função sleep é para fazer uma simulação de contagem de carregamento
     pc = ['PEDRA', 'PAPEL', 'TESOURA']              #fiz uma lista simples das opções para o pc escolher
     pc = random.choice(pc)                          #O pc ira usar a função choice do modulo random para escolher a opção aleatoria da lista acima
 
